@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '8329916'))
 API_HASH = environ.get('API_HASH', 'acb26b51612ce397e0a8db69af083ecb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5854939414:AAGEGxiqxzcZeL57IddB6tLLV5iMSkgt5DE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5870614325:AAGQz_mRNfoIhnKk9lu9Qwhhgwcj6gG7b2g")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'clicksfly.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'e740c33be090229e0387e547f0761bf92d96de00')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'urlshortx.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '41a0ac29b4b4734844ffc441d1e58c5f84f5ff0b')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
