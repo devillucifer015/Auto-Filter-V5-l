@@ -43,15 +43,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+hVaFA5aZhngzYmE1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/LuciferLinks')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/xDEADPOOLLINKS')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+hVaFA5aZhngzYmE1')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/cynitemovies/3')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001830081103))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+i0VJQ5gr1nAzMzQ9')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/wtybl9Xfyfw3')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001857519927))
@@ -69,9 +69,9 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001879947210')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Auto Delete , Filter & Auto Filter
